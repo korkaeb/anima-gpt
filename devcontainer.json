@@ -1,0 +1,7 @@
+{
+  "name": "Anima Prompt Sorter",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [3000],
+  "portsAttributes": { "3000": { "label": "Anima Prompt Sorter", "onAutoForward": "openBrowser", "visibility": "private" } }
+}
